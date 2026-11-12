@@ -211,8 +211,8 @@ async function loginAdmin() {
             loadAdminUsers();
             loadLogs();
         } else {
-    alert('Invalid username or password.');
-}
+          alert('Invalid username or password.');
+        }
     } catch (err) { alert('Login failed.'); }
 }
 
