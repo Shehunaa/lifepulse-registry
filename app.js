@@ -211,7 +211,7 @@ async function loginAdmin() {
             loadAdminUsers();
             loadLogs();
         } else {
-            alert('Invalid credentials. Use admin / admin123');
+            alert('Invalid username or password. Access denied.');
         }
     } catch (err) { alert('Login failed.'); }
 }
