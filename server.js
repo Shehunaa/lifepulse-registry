@@ -57,7 +57,7 @@ db.serialize(() => {
     `, () => {
         db.get(`SELECT COUNT(*) as count FROM admins`, [], (err, row) => {
             if (row && row.count === 0) {
-                db.run(`INSERT INTO admins (username, password) VALUES ('admin', 'admin123')`);
+                db.run(`INSERT INTO admins (username, password) VALUES ('Aliyu Shehu', 'Candcbbf10')`);
             }
         });
     });
